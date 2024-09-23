@@ -1,8 +1,8 @@
 import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from diplom_project.main.flask_app import create_app, engine, db as _db
-from diplom_project.main.models import Users, Tweets, Media, Base
+from flask_app import create_app 
+from models import Users, Tweets, Media, Base, engine, db as _db
 
 
 @pytest.fixture
