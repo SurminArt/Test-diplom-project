@@ -1,5 +1,5 @@
 import json
-from diplom_project.main.models import Users, Tweets
+from models import Users, Tweets
 
 
 def test_add_tweet(client, db) -> None:
