@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 from flask import request
 from flask_sqlalchemy import SQLAlchemy
 from typing import Dict, Any
-from diplom_project.main.config import ALLOWED_EXTENSIONS
+from config import ALLOWED_EXTENSIONS
 
 db = SQLAlchemy()
 engine = create_engine('postgresql+psycopg2://admin:admin@localhost/tweets_db')
