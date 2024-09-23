@@ -12,9 +12,9 @@ from diplom_project.main.config import (TEMPLATE_FOLDER, JS_DIRECTORY, CSS_DIREC
 from apispec.ext.marshmallow import MarshmallowPlugin
 from apispec_webframeworks.flask import FlaskPlugin
 from flasgger import APISpec, Swagger, swag_from
-from diplom_project.main.schemas import (ResponseTweets, ResponseTweetTrue, ResponseMediaTrue, ResponseTrue,
+from schemas import (ResponseTweets, ResponseTweetTrue, ResponseMediaTrue, ResponseTrue,
                                          ResponseFalse, ResponseUser)
-from diplom_project.main.models import (engine, session, db, Base, check_api_key, check_id_user_other, check_id_user,
+from models import (engine, session, db, Base, check_api_key, check_id_user_other, check_id_user,
                                         check_id_tweet, check_author_tweet, allowed_file, get_attachment)
 
 
